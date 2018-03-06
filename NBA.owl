@@ -86,10 +86,10 @@
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000056"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000068"/>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000101"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000101"/>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000068"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000113"/>
@@ -299,10 +299,10 @@
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000036"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000048"/>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000169"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000169"/>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000048"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000105"/>
@@ -314,10 +314,10 @@
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000092"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000161"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000161"/>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000052"/>
@@ -333,6 +333,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000118"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.pizza.owl/ontologies/PIZZA0000185"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000087"/>
@@ -368,10 +371,10 @@
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000116"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000091"/>
+        <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000091"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000160"/>
@@ -419,16 +422,16 @@
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000127"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000090"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000050"/>
+        <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000171"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000050"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000062"/>
@@ -449,40 +452,418 @@
         <AnnotationProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000043"/>
     </Declaration>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000036"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000172"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000037"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000036"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000038"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000037"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000036"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000038"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000172"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000036"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000038"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000038"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000038"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000177"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000038"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000042"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000042"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000172"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000044"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000042"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000062"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000042"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000063"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000042"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000064"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000042"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000065"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000042"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000066"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000044"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000037"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000044"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000042"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000044"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000047"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000044"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000048"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000045"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000037"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000049"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000050"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000051"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000047"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000036"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000047"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000172"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000044"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000047"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000052"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000047"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000053"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000047"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000054"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000047"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000055"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000047"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000056"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000048"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000048"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000172"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000044"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000048"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000057"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000048"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000058"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000048"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000059"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000048"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000060"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000048"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000061"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000049"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000036"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000049"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000172"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000045"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000049"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000067"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000049"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000068"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000049"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000069"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000049"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000070"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000049"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000050"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000050"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000172"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000045"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000050"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000072"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000050"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000073"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000050"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000074"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000050"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000075"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000050"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000076"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000051"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000036"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000051"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000172"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000045"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000051"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000077"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000051"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000078"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000051"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000079"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000051"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000080"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000051"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000081"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000052"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000052"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000083"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000053"/>
@@ -523,6 +904,34 @@
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000062"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000062"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000172"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000048"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000062"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000132"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000062"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000173"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000133"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000062"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000082"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000063"/>
@@ -605,120 +1014,750 @@
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000082"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000062"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000082"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000132"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000082"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000133"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000083"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000083"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000052"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000083"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000112"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000083"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000113"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000084"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000084"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000053"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000084"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000114"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000084"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000115"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000085"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000085"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000063"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000085"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000134"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000085"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000135"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000086"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000086"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000057"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000086"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000122"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000086"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000123"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000087"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000087"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000058"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000087"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000124"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000087"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000125"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000088"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000088"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000072"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000088"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000152"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000088"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000153"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000089"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000089"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000077"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000089"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000162"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000089"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000163"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000090"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000090"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000059"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000090"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000126"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000090"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000127"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000091"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000091"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000067"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000091"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000142"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000091"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000143"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000092"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000092"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000073"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000092"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000154"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000092"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000155"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000093"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000093"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000060"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000093"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000128"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000093"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000129"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000094"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000094"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000068"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000094"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000144"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000094"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000145"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000095"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000095"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000069"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000095"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000146"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000095"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000147"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000096"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000096"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000074"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000096"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000156"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000096"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000157"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000097"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000097"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000064"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000097"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000136"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000097"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000137"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000098"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000098"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000061"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000098"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000130"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000098"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000131"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000099"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000099"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000078"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000099"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000164"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000099"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000165"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000100"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000100"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000075"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000100"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000158"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000100"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000159"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000101"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000101"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000054"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000101"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000116"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000101"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000117"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000102"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000102"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000079"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000102"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000166"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000102"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000167"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000103"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000103"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000065"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000103"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000138"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000103"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000139"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000104"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000104"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000055"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000104"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000118"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000104"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000119"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000105"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000105"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000070"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000105"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000148"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000105"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000149"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000106"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000106"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000080"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000106"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000168"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000106"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000169"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000107"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000107"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000107"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000150"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000107"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000151"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000108"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000108"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000076"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000108"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000160"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000108"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000161"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000109"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000109"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000056"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000109"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000120"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000109"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000121"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000110"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000110"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000081"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000110"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000170"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000110"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000171"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000111"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000111"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000066"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000111"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000140"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000111"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000174"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000141"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000112"/>
@@ -729,8 +1768,50 @@
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000113"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000083"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000113"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000112"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000113"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000177"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000052"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000114"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000114"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000084"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000114"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000115"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000114"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000177"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000053"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000115"/>
@@ -753,8 +1834,50 @@
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000119"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000119"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000119"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000118"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000119"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000177"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000055"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000120"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000120"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000109"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000120"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000121"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000120"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000177"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000056"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000121"/>
@@ -781,8 +1904,50 @@
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000126"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000090"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000126"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000126"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000126"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000177"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000059"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000127"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000127"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000090"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000127"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000126"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000127"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000177"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000059"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000128"/>
@@ -805,8 +1970,36 @@
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000132"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000082"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000132"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000133"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000132"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000177"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000062"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000133"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000133"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000132"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000134"/>
@@ -817,8 +2010,50 @@
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000135"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000085"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000135"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000134"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000135"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000177"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000063"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000136"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000136"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000097"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000136"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000137"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000136"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000177"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000064"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000137"/>
@@ -827,6 +2062,27 @@
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000138"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000138"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000103"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000138"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000139"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000138"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000177"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000065"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000139"/>
@@ -841,6 +2097,27 @@
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000141"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000111"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000141"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000140"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000141"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000177"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000066"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000142"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
     </SubClassOf>
@@ -851,6 +2128,27 @@
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000144"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000144"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000094"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000144"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000145"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000144"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000177"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000068"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000145"/>
@@ -869,12 +2167,75 @@
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000148"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000105"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000148"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000149"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000148"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000177"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000070"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000149"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000149"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000105"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000149"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000148"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000149"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000177"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000070"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000150"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000150"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000107"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000150"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000151"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000150"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000177"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000071"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000151"/>
@@ -885,12 +2246,75 @@
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000152"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000088"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000152"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000153"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000152"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000177"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000072"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000153"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000153"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000088"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000153"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000152"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000153"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000177"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000072"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000154"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000154"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000092"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000154"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000155"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000154"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000177"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000073"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000155"/>
@@ -909,8 +2333,50 @@
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000158"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000100"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000158"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000159"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000158"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000177"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000075"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000159"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000159"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000100"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000159"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000158"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000159"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000177"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000075"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000160"/>
@@ -949,12 +2415,75 @@
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000168"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000106"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000168"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000169"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000168"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000177"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000080"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000169"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000169"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000106"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000169"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000168"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000169"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000177"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000080"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000170"/>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000170"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000175"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000110"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000170"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000176"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000171"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000170"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.pizza.owl/ontologies/PIZZA0000177"/>
+            <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000081"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.pizza.owl/ontologies/PIZZA0000171"/>
@@ -3291,6 +4820,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.pizza.owl/ontologies/PIZZA0000181</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.pizza.owl/ontologies/PIZZA0000185</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Alvin_Gentry</Literal>
     </AnnotationAssertion>
 </Ontology>
 
